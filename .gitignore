@@ -102,3 +102,6 @@ dmypy.json
 
 # Pyre
 .pyre/
+
+# Migration files
+*.migrations/
