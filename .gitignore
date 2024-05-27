@@ -105,3 +105,7 @@ dmypy.json
 
 # Migration files
 *.migrations/
+
+# Static admin and graphql files
+*/static/admin/
+*/static/graphene_django/
