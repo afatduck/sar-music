@@ -104,7 +104,7 @@ dmypy.json
 .pyre/
 
 # Migration files
-*.migrations/
+*/migrations/
 
 # Static admin and graphql files
 */static/admin/
