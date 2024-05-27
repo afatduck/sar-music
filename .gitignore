@@ -104,8 +104,6 @@ dmypy.json
 .pyre/
 
 # Migration files
-*/migrations/
-
-# Static admin and graphql files
-*/static/admin/
-*/static/graphene_django/
+sar/music_api/migrations/*
+sar/static/admin/*
+sar/static/graphene_django/*
