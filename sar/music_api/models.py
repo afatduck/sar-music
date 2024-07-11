@@ -7,6 +7,7 @@ class SA(models.Model):
     release_date = models.DateField(null=True)
     original = models.BooleanField(default=True)
     youtube = models.URLField(null=True)
+    note = models.TextField(null=True)
 
     def __str__(self):
         return self.title
@@ -42,7 +43,6 @@ class Album(SA):
 
 
 class Song(SA):
-    note = models.TextField(null=True)
     mp3 = models.URLField()
     wav = models.URLField()
     flac = models.URLField()
